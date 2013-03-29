@@ -1,0 +1,175 @@
+@charset "utf-8";
+@import url("webfonts/PTSansRegular/stylesheet.css");
+@import url("webfonts/PTSansBold/stylesheet.css");
+@import url("webfonts/PTSansItalic/stylesheet.css");
+@import url("webfonts/PTSansBoldItalic/stylesheet.css");
+
+body {
+	background-attachment: fixed;
+	background-image: url(images/background%20light%20blue.png);
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container {
+	width: 80%;
+	min-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	background-attachment: scroll;
+	padding-right: 6px;
+}
+.header {
+	height: 260px;
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	background-image: url(images/big_bear_Lake1.jpg);
+	background-position: 0px center;
+	padding-left: 6px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	margin-bottom: 9px;
+	min-width: 800px;
+	border: 15;
+	border-style: inset;
+	border-color: rgba(0,153,255,1);
+	padding-right: 0px;
+}
+h1 {
+	font-family: PTSansBoldItalic;
+	color: rgba(255,255,255,1);
+	font-size: 55px;
+	-webkit-transition: all;
+	-moz-transition: all;
+	-ms-transition: all;
+	-o-transition: all;
+	break-inside: avoid-page;
+	text-shadow: 8px 9px 4px rgba(0,0,102,1);
+	float: left;
+	border-bottom-width: 2px;
+	margin: 0px;
+	border-bottom-style: ridge;
+}
+h3 {
+	text-transform: uppercase;
+	font-family: PTSansBold;
+	color: rgba(255,255,255,1);
+	background-color: rgba(0,102,51,1);
+	text-align: center;
+	opacity: .8;
+}
+
+
+.address {
+	font-size: 27px;
+	color: rgba(255,255,255,1);
+	font-family: PTSansBold;
+	padding-top: 40px;
+	text-shadow: 5px 0px 9px rgba(102,0,0,1);
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 800px;
+}
+h2 {
+	text-shadow: 2px 9px 19px rgba(0,51,0,1);
+}
+
+.floatRight {
+	float: right;
+	padding: 5px;
+	clear: both;
+}
+h4 {
+	color: rgba(255,255,255,1);
+	font-size: 39px;
+	text-indent: 20px;
+	padding-top: 10px;
+	text-shadow: 5px 4px 6px rgba(0,0,102,1);
+}
+
+.content {
+	font-family: PTSansRegular;
+	line-height: 1.9em;
+	color: rgba(0,51,0,1);
+	font-size: 18px;
+
+
+}
+    
+.footer {
+	font-size: small;
+	text-align: center;
+	border-top-width: 2px;
+	border-top-style: outset;
+	line-height: 1.9em;
+	border-top-color: rgba(0,0,102,1);
+}
+#map {
+	text-align: center;
+}
+#tollFree {
+	text-align: center;
+	width: 300px;
+	font-size: 30px;
+	line-height: normal;
+	font-style: italic;
+	float: right;
+	clear: both;
+	text-shadow: 2px 9px 19px rgba(0,102,0,1);
+}
+#tollFreeP2 {
+	font-size: large;
+}
+
+
+
+
+.floatLeft {
+	float: left;
+	padding: 5px;
+}
+h5 {
+	font-size: xx-large;
+	font-style: normal;
+	text-align: center;
+	text-shadow: 2px 9px 19px rgba(0,0,51,1);
+	border-bottom-style: groove;
+	padding-bottom: 15px;
+	border-bottom-color: rgba(255,255,255,1);
+	border-bottom-width: 5px;
+}
+.alignCenter {
+	text-align: center;
+}
+
+label {
+	display: inline;
+	font-size: large;
+	font-weight: bold;
+}
+.jSocial {
+	width: auto;
+	float: right;
+
+}
+.footer {
+	clear: both;
+}
+.input {
+	background-color: rgba(204,204,204,1);
+	border-radius: 3px;
+	box-shadow: inset 1px 1px 1px 1px rgba(0,102,0,1);
+}
+#submit {
+	background-color: rgba(204,204,255,1);
+	font-size: large;
+	color: rgba(0,51,0,1);
+}
+#reset {
+	background-color: rgba(204,204,255,1);
+	color: rgba(0,0,0,1);
+	font-size: medium;
+}
